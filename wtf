@@ -1,1 +1,4 @@
 
+[Unit]
+Description=Start TightVNC server at startup
+After=syslog.target network.target
